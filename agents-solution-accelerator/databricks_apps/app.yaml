@@ -1,0 +1,14 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+
+env:
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"
+  - name: "SERVING_ENDPOINT"
+    # valueFrom: "serving-endpoint"
+    value: "agents_bo_cheng_dnb_demos-agents-hls_agent"
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    value: "e6cc2ed24e59e418"
