@@ -11,4 +11,4 @@ env:
     # valueFrom: "serving-endpoint"
     value: "agents_bo_cheng_dnb_demos-agents-hls_agent"
   - name: "DATABRICKS_WAREHOUSE_ID"
-    value: "e6cc2ed24e59e418"
+    value: "8a614812589992fa"
