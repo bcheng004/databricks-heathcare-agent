@@ -9,6 +9,6 @@ env:
     value: "false"
   - name: "SERVING_ENDPOINT"
     # valueFrom: "serving-endpoint"
-    value: "agents_bo_cheng_dnb_demos-agents-hls_agent"
+    value: "<replace with agent endpoint name>"
   - name: "DATABRICKS_WAREHOUSE_ID"
-    value: "8a614812589992fa"
+    value: "<replace with SQL warehouse id>"
